@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de textos - Demon Slayer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@200 & display=swap" rel="stylesheet">
+<body>
+    <header>
+        <div class img class="logo" src="imagenes/logo.png" alt="Fondo"> </div>
+        <div class="contenedor">
+            <img class="logo" src="imagenes/logo.png" alt="logo alura">
+            <h1 class="titulo_logo">Encriptador de textos - Demon Slayer</h1>
+        </div>    
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="encriptador">
+                <form class="encriptador_form">
+                    <div class="texto_en_area">
+                        <textarea name="texto" id="texto"  placeholder="Ingrese el texto aqui" ></textarea>
+                        <div class="texto_info">
+                            <div class="info">
+                                <img src="imagenes/exclamation-circ.png">
+                                <p id="advertencia">Solo letras minúsculas</p>
+                            </div>
+                        </div>
+    
+                        <div class="btn">
+                            <button id="encri" class="btn_encriptar" type="button"><img src="./imagenes/CandadoCerrado.png"> Encriptar</button>
+                            <button id="desencri" class="btn_desencriptar" type="button"><img src="./imagenes/CandadoAbierto.png"> Desencriptar</button>
+                        </div>
+                    </div>
+                </form>
+    
+                <div class="resultado">
+ 
+                    <div class="contenedor_resultado">
+                        <div class="contenido_no_resuelto" id="noResuelto">
+                            <div class="imagen_resultado">
+                                <img src="imagenes/TanjiroNezuko.png" alt="imagen de Tanjiro Kamado & Nezuko">
+                            </div>
+                            <p href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@200 & display=swap" rel="stylesheet">Ningún mensaje fue encontrado</p>
+                            <p href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@200 & display=swap" rel="stylesheet">Ingresa aqui el texto que desees encriptar o desencriptar.</p>
+                            </div>
+                
+                            <div class="contenido_resuelto" id = "resuelto">
+                                <textarea name="texto_resultado" id="textoResultado" disabled></textarea>
+                                <button id="copiar" type="button"><img src="imagenes/copiar.png"> Copiar</button>
+                        </div>
+                    </div>  
+                </div>
+            </div>  
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright">© Creado por <a href="https://github.com/Carlos315338" target="_blank" rel="noopener noreferrer" >Carlos Developer</a></p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
